@@ -2,4 +2,5 @@
 ~$*
 
 # ADS file decluttering
-*:Zone.Identifier
+*:Zone.Identifier.DS_Store
+backup/
