@@ -4,3 +4,6 @@
 # ADS file decluttering
 *:Zone.Identifier.DS_Store
 backup/
+model.ipynb
+ny_10/
+.DS_Store
