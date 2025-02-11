@@ -5,6 +5,7 @@ This is the data and code for our MACS 30100 group project. Our group project is
 
 data files:
 
-  police_data.xlsx: xlsx containing information about police homicides from 2023-2014.
+  police_data.xlsx: xlsx containing information about police homicides from 2013-2024.
+  police_data.csv: .csv version of the data for smoother processing.
 
 code files (incoming):
