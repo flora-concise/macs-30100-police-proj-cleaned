@@ -63,7 +63,7 @@ def attr_merger(geo_joined_df, census_file_path, county):
     geo_joined_df: (GeoPandasDataFrame) a sjoin of a state's .shp shapefile and the original police homicide csv
         has column 'GEOIDFQ' renamed to 'GEO_ID' for merging;
     census_file_path: file path for census tract demographic information, should be csv, year = 2013
-    county: (str) county in question
+    county: (str) or (list of str) county in question
     
     returns:
         df: a pd DataFrame containing census demographic data and a column that contains boolean val for pol homicide
@@ -80,8 +80,12 @@ def attr_merger(geo_joined_df, census_file_path, county):
             continue
         
     df['in_county'] = df.NAME.str.extract(r'\s*([\w\s]+ County)', expand=False)
-    df = df[df['in_county'] == county]
-        
+
+    if type(county)==str:
+        df = df[df['in_county'] == county]
+    if type(county)==list:
+        df = df[df['in_county'] in county]
+
     df['target'] = df.apply(
 		lambda x: booleaner(x['GEO_ID'], geo_joined_df['GEO_ID'].values),
         axis=1
