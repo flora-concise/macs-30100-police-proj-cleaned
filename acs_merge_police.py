@@ -41,7 +41,6 @@ def tract_merger(pol_filepath, shapefile_path):
     geo_joined_df.rename(columns={'GEOIDFQ':'GEO_ID'}, inplace=True)
     # correcting year column to dtype int64
     geo_joined_df['year'] = geo_joined_df['year'].astype(int)
-    # correcting zip column to dtype int64    
 
     return geo_joined_df
 
