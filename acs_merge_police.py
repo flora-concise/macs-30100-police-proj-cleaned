@@ -6,6 +6,7 @@ import shapely
 from shapely.geometry import point
 
 # Anita Sun
+# .py version of my notebook file for importing functions
 
 def tract_merger(pol_filepath, shapefile_path):
     ''' 
