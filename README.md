@@ -10,6 +10,7 @@ folders:
  - census_2013: contains a csv that is the result of 2013 income, 2013 education, and 2013 race demographics. there is one csv for each state, formatted as '[state abbreviation]_2013.csv'
 
 code files:
+ - preprocessing.py: contains the function clean_police_dataset, which takes the police_data.csv and cleans the dataset
  - acs_merge_police.ipynb: EDA notebook
  - acs_merge_police.py: contains the function tract_merger (used to geopandas sjoin shapefiles to the police_data.csv dataframe) and attr_merger (merges the result of tract_merger with ACS demographic data found in the census_2013 folder, and also filters for the counties that contain our cities of interest)
  - logistic_regression.ipynb: training, tuning, and testing logistic regression models on our dataset
