@@ -8,7 +8,6 @@ folders:
  - new_york_shapefiles: shapefiles for new york census tracts
  - illinois_shapefiles: shapefiles for illinois census tracts
  - census_2013: contains a csv that is the result of 2013 income, 2013 education, and 2013 race demographics. there is one csv for each state, formatted as '[state abbreviation]_2013.csv'
- - 
 
 code files:
  - acs_merge_police.ipynb: EDA notebook
