@@ -1,7 +1,7 @@
 ##########
 # Preprocessing & City/Neighborhood Encoding
-# Anita Sun - nitomanto
-# Felix Chen - flora-concise
+# Felix Chen - flora-concise - Comment: Felix wrote the vast majority of the code
+# except the first two lines (the importation).
 # 
 ##########
 
