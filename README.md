@@ -24,3 +24,5 @@ This is the data and code for our MACS 30100 group project. Our group project is
 - Perspectives Modeling P2 Slide Deck.pdf: Our slide deck.
 - Our presentation video: 
 https://photos.app.goo.gl/a2YA3YhihYqygZ517
+
+**Note:** our presentation video has a glitch and the entire screen is black for some reason, you can follow along for the presentation using the slide deck
