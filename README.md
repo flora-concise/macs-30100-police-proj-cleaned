@@ -24,3 +24,12 @@ This is the data and code for our MACS 30100 group project. Our group project is
 - Perspectives Modeling P2 Slide Deck.pdf: Our slide deck.
 - Our presentation video: 
 https://photos.app.goo.gl/a2YA3YhihYqygZ517
+
+----------
+
+**References:**
+- Campaign Zero (2024). Mapping Police Violence. https://mappingpoliceviolence.org/
+- Maksuta, K. D., Zhao, Y., & Yang, T.-C. (2024). Race, disadvantage, and violence: A spatial exploration of macrolevel covariates of police-involved homicides within and between US counties. Social Science Research 119: 102985. https://doi.org/10.1016/j.ssresearch.2024.102985
+- Prabakaran, S., & Mitra, S. (2019). Design and development of machine learning algorithm for forecasting crime rate. International Journal of Innovative Technology and Exploring Engineering 8(11): 1217-22. https://doi.org/10.35940/ijitee.K1246.09811S19
+- Verrey, J., Ariel, B., Harinam, V., & Dillon, L. (2023). Using machine learning to forecast domestic homicide via police data and super learning. Scientific Reports 13: 22932. https://doi.org/10.1038/s41598-023-50274-2
+- Wilkes, R., & Karimi, A. (2023). Multi-group data versus dual-side theory: On race contrasts and police-caused homicides. Social Science & Medicine 327: 115946. https://doi.org/10.1016/j.socscimed.2023.115946
