@@ -23,7 +23,7 @@ This is the data and code for our MACS 30100 group project. Our group project is
 **presentation files:**
 - Perspectives Modeling P2 Slide Deck.pdf: Our slide deck.
 - Our presentation video: 
-https://photos.app.goo.gl/a2YA3YhihYqygZ517
+https://photos.app.goo.gl/eqWAu4TJE2ro7esBA
 
 ----------
 
